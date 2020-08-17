@@ -48,9 +48,9 @@ let ipLogo = document.getElementById('serverIPLogo');
         document.getElementById('foot').style.height = '420px';
     };
 
-navTextSize2.addEventListener('click', function(){
+navTextSize3.addEventListener('click', function(){
     alert('Sorry, the server doesn\'t have shop yet, this button is useless!');
 })
-navTextSize3.addEventListener('click', function(){
+navTextSize2.addEventListener('click', function(){
     alert('Sorry, the server doesn\'t have voting system yet, this button is useless!');
 })
