@@ -17,10 +17,13 @@ let navTextSize = document.getElementById('NAV-BAR-ID');
 let navTextSize2 = document.getElementById('NAV-BAR-IDB');
 let navTextSize3 = document.getElementById('NAV-BAR-IDC');
 let btnTop = document.getElementById('NAV-BAR-IDD');
+let ipLogo = document.getElementById('serverIPLogo');
 
     if (screenWidth < 1262) 
     {
         serverInfoCont.style.width = '98%';
+        ipLogo.style.marginRight = 'auto';
+        ipLogo.style.marginLeft = 'auto';
     };
 
     if (screenWidth < 490) 

@@ -234,12 +234,15 @@ div.headImg h1 {
   padding: 10px 5px;
   font-family: 'Times New Roman', Times, serif;
 }
+#credit p {
+  font-size: 20px;
+}
 #social {
   color: white;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
-  padding: 20px 32px;
+  padding: 10px 32px;
   margin: 0;
 }
 #foot p a {
