@@ -8,4 +8,19 @@ document.getElementById('copyIPbtn').addEventListener('click', function()
         document.execCommand("copy");
         alert("IP Copied!");
     }
-)
+);
+
+let serverInfoCont = document.getElementById('SERVER-INFO-ID');
+let navLogo = document.getElementById('navBarLogoSmall');
+let screenWidth = window.screen.width;
+
+if (screenWidth < 1262) {
+    serverInfoCont.style.width = '98%';
+};
+
+if (screenWidth < 390) {
+    navLogo.style.height = '35px';
+    navLogo.style.width = '35px';
+    navLogo.style.borderStyle = 'none';
+    navLogo.style.marginTop = '2%';
+};

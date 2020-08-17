@@ -90,15 +90,12 @@ div.headImg h1 {
 #one {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .logo1 {
-  max-width: 300px;
-  max-height: 300px;
   width: auto;
   height: auto;
-  margin-top: 0;
-  margin-right: 0;
 }
 
 .serverinfo {
@@ -178,10 +175,9 @@ div.headImg h1 {
   margin-top: 2%;
 }
 #serverIPLogo {
-  height: auto;
+  height: 450px;
   margin-right: 3%;
-  margin-top: 3%;
-  max-width: 35%;
+  max-width: 98%;
 }
 
 
@@ -205,4 +201,5 @@ div.headImg h1 {
   color: white;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
 }
