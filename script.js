@@ -10,9 +10,10 @@ document.getElementById('copyIPbtn').addEventListener('click', function()
     }
 );
 
+let screenWidth = window.screen.width;
+let screenHeight = window.screen.height;
 let serverInfoCont = document.getElementById('SERVER-INFO-ID');
 let navLogo = document.getElementById('navBarLogoSmall');
-let screenWidth = window.screen.width;
 let navTextSize = document.getElementById('NAV-BAR-ID');
 let navTextSize2 = document.getElementById('NAV-BAR-IDB');
 let navTextSize3 = document.getElementById('NAV-BAR-IDC');
@@ -38,6 +39,9 @@ let ipLogo = document.getElementById('serverIPLogo');
         btnTop.style.display = 'none';
     };
 
+    if (screenHeight < 870) {
+        document.getElementById('foot').style.height = '420px';
+    };
 
 navTextSize2.addEventListener('click', function(){
     alert('Sorry, the server doesn\'t have shop yet, this button is useless!');
