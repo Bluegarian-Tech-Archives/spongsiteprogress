@@ -16,6 +16,7 @@ let screenWidth = window.screen.width;
 let navTextSize = document.getElementById('NAV-BAR-ID');
 let navTextSize2 = document.getElementById('NAV-BAR-IDB');
 let navTextSize3 = document.getElementById('NAV-BAR-IDC');
+let btnTop = document.getElementById('NAV-BAR-IDD');
 
     if (screenWidth < 1262) 
     {
@@ -28,22 +29,12 @@ let navTextSize3 = document.getElementById('NAV-BAR-IDC');
         navLogo.style.width = '35px';
         navLogo.style.borderStyle = 'none';
         navLogo.style.marginTop = '0.8%';
-    };
-
-    if (screenWidth < 490) 
-    {
         navTextSize.style.fontSize = '18px';
-    };
-
-    if (screenWidth < 490) 
-    {
         navTextSize2.style.fontSize = '18px';
+        navTextSize3.style.fontSize = '18px';
+        btnTop.style.display = 'none';
     };
 
-    if (screenWidth < 490) 
-    {
-        navTextSize3.style.fontSize = '18px';
-    };
 
 navTextSize2.addEventListener('click', function(){
     alert('Sorry, the server doesn\'t have shop yet, this button is useless!');
