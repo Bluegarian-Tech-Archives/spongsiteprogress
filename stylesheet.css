@@ -31,7 +31,7 @@ div.headImg h1 {
   transform: translate(-50%, -50%);
   color: white;
   text-shadow: 2px 2px #000000;
-  font-size: 65px;
+  font-size: 47px;
   user-select: none;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -59,7 +59,7 @@ div.headImg h1 {
   padding: 10px 15px;
   transition-duration: 0.4s;
   margin: 0;
-  font-size: 30px;
+  font-size: 24px;
   user-select: none;
   text-decoration: none;
   font-family: Calibri, Helvetica, Verdana;
@@ -68,7 +68,7 @@ div.headImg h1 {
   background: rgba(82, 80, 92, 0.5);
   color: gold;
   cursor: pointer;
-  font-size: 32px;
+  font-size: 28px;
 }
 .navCont:active {
   transition-duration: 0.1s;
@@ -76,14 +76,13 @@ div.headImg h1 {
 
 }
 .navbar img {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   float: right;
   margin-right: 0.5%;
   margin-top: 0.2%;
   margin-bottom: 0.3%;
   border: silver 1px solid;
-  border-radius: 50%;
 }
 
 /* Server information */
@@ -94,16 +93,17 @@ div.headImg h1 {
 }
 
 .logo1 {
-  margin-left: auto;
-  display: inline-block;
-  width: 30%;
-  margin-top: 1%;
-  margin-right: 1%;
+  max-width: 300px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  margin-top: 0;
+  margin-right: 0;
 }
 
 .serverinfo {
   width: 60%;
-  height: 500px;
+  height: 450px;
   display: inline-block;
   border: 2px dimgrey solid;
   background-color: rgb(153, 153, 153);
@@ -111,8 +111,22 @@ div.headImg h1 {
   border-radius: 4%;
   margin-left: 1%;
   margin-top: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: auto;
 }
-
+.serverinfo p {
+  color: black;
+  font-size: 25px;
+  padding: 7px 5px;
+}
+.headerTxt {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 0;
+  margin-left: 1%;
+}
 #IPnoscript {
   color: red;
   font-weight: bold;
@@ -152,14 +166,23 @@ div.headImg h1 {
   font-weight: bold;
   display: inline-block;
 }
-
+#serverimages {
+  margin-left: 0.6%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0.6%;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+#serverimages img {
+  margin-top: 2%;
+}
 #serverIPLogo {
   height: auto;
   margin-right: 3%;
   margin-top: 3%;
   max-width: 35%;
 }
-
 
 
 
@@ -176,4 +199,10 @@ div.headImg h1 {
   border-right-style: none;
   border-bottom-style: none;
   border-left-style: none;
+}
+
+#foot p {
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }

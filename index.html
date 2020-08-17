@@ -24,6 +24,7 @@
       <meta name="twitter:card" content="summary_large_image">
 
       <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
   <body>
@@ -47,11 +48,12 @@
          <img src="Assets/Images/SpongLogoSmaller.png" alt="Navbar logo">
        </nav>
 <main>
+<h2 id="Info" class="headerTxt">Info:</h2>
 <section id="one">
-  <div id="server-info" class="serverinfo">
+  <div class="serverinfo">
     <div id="IP-container">
       <span>Server IP: </span>
-      <input type="text" value="Spong.mcpro.io" id="copyIP">
+      <input type="text" value="Spong.mcpro.io" id="copyIP" readonly>
       <button id="copyIPbtn">Copy</button>
     <br/>
         <noscript id="IPnoscript">
@@ -62,6 +64,18 @@
         <h5 class="serverInfoText">1.16.1</h5>
     </div>
     <hr/>
+    <div id="description">
+      <p>
+        The Spong Minecraft server is where you can find Survival, KitPVP, and Fun Events! The server
+        is constantly getting better along with the Spongoose YouTube channel where the server was
+        born from. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Insert images here:
+      </p>
+    </div>
+    <div id="serverimages">
+      <img src="Assets/Images/example.jpg" alt="example image">
+      <img src="Assets/Images/example.jpg" alt="example image 2">
+      <img src="Assets/Images/example.jpg" alt="example image 3">
+    </div>
   </div>
   <img src="Assets/Images/SpongLogo.png" id="serverIPLogo" alt="Server Logo">
 </section>
@@ -74,7 +88,15 @@
 </section>
 </main>
 <footer id="foot">
-
+  <p>
+    <a href="">
+      <i class="fa fa-youtube-play"></i> YouTube Channel <br/>
+    </a>
+    <a href="">
+      <i class="fa fa-instagram	"></i> Instagram
+    </a>
+  </p>
+  
 </footer>
   </body>
      <script>
