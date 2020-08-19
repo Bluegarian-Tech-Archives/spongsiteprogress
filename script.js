@@ -48,6 +48,10 @@ let ipLogo = document.getElementById('serverIPLogo');
         document.getElementById('foot').style.height = '420px';
     };
 
+document.getElementById('navBarLogoSmall').addEventListener('click', function() {
+    window.location.href = 'https://bluegarian-tech-archives.github.io/spongsiteprogress/';
+})
+
 navTextSize3.addEventListener('click', function(){
     alert('Sorry, the server doesn\'t have shop yet, this button is useless!');
 })
