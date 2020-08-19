@@ -114,6 +114,14 @@ div.headImg h1 {
   float: right;
 }
 
+.navNoScript {
+  width: 100%;
+  color: red;
+  background-color: yellow;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
 /* Server information */
 
 #one {
