@@ -36,13 +36,16 @@ let ipLogo = document.getElementById('serverIPLogo');
         navTextSize.style.fontSize = '18px';
         navTextSize2.style.fontSize = '18px';
         navTextSize3.style.fontSize = '18px';
-        btnTop.style.display = 'none';
         document.getElementById('example').style.width = '99.5%';
         document.getElementById('example2').style.width = '99.5%';
         document.getElementById('example3').style.width = '99.5%';
         document.getElementById('descriptiontxt').style.fontSize = '15px';
         document.getElementById('serverIPLogo').style.height = 'auto';
     };
+
+    if (screenWidth < 560) {
+        btnTop.style.display = 'none';
+    }
 
     if (screenHeight < 870) {
         document.getElementById('foot').style.height = '420px';

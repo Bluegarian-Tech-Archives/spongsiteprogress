@@ -10,6 +10,18 @@ body {
   background-color: rgb(61, 61, 61);
 }
 
+/* Selection */
+
+::selection {
+  color: gold;
+  background-color: rgb(179, 179, 179);
+}
+
+::-moz-selection {
+  color: gold;
+  background-color: rgb(179, 179, 179);
+}
+
 /* Header Image */
 
 div.headImg {
@@ -82,7 +94,7 @@ div.headImg h1 {
   padding: 10px 15px;
   transition-duration: 0.4s;
   margin: 0;
-  font-size: 24px;
+  font-size: 28px;
   user-select: none;
   text-decoration: none;
   font-family: Calibri, Helvetica, Verdana;
@@ -91,7 +103,7 @@ div.headImg h1 {
   background: rgba(82, 80, 92, 0.5);
   color: gold;
   cursor: pointer;
-  font-size: 28px;
+  font-size: 32px;
 }
 .navCont:active {
   transition-duration: 0.1s;
@@ -99,13 +111,14 @@ div.headImg h1 {
 
 }
 .navbar img {
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   float: right;
   margin-right: 0.5%;
   margin-top: 0.2%;
   margin-bottom: 0.3%;
   border: silver 1px solid;
+  user-select: none;
 }
 .navbar img:hover {
   cursor: pointer;
@@ -122,6 +135,7 @@ div.headImg h1 {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 /* Server information */
 
 #one {
@@ -130,18 +144,12 @@ div.headImg h1 {
   flex-wrap: wrap;
 }
 
-.logo1 {
-  width: auto;
-  height: auto;
-}
-
 .serverinfo {
   width: 60%;
   height: 450px;
   display: inline-block;
   border: 2px dimgrey solid;
-  background-color: rgb(153, 153, 153);
-  box-shadow: 5px 10px #202020;
+  background-color: rgb(114, 114, 114);
   margin-left: 1%;
   margin-top: 1%;
   font-family: Arial, Helvetica, sans-serif;
@@ -218,10 +226,11 @@ div.headImg h1 {
 #serverIPLogo {
   height: 450px;
   margin-right: 3%;
-  max-width: 98%;
+  max-width: 96%;
   border: gold 5px outset;
   border-radius: 50%;
   background-color: rgb(223, 163, 0);
+  user-select: none;
 }
 
 
