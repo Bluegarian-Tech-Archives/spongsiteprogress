@@ -29,10 +29,11 @@ div.headImg {
   height: 500px;
   border: none;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Assets/Images/mclogo.png');
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  background-attachment: fixed;
 }
 div.headImg h1 {
   margin: 0;
